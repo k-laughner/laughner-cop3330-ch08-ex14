@@ -3,6 +3,8 @@
 2. What might that mean?
   Answer: It means that the function's parameter cannot be changed throughout the function because it is a constant. 
 3. Why might we want to do that?
-  Answer: It is a good practice to pass constants when not intending to change a value in a function because it prevents accidental changes to a value while running it through a function. If a function tries to change a value that was passed as a constant, the program will not compile. This prevents the value from being changed.
+  Answer: It is a good practice to pass constants when not intending to change a value in a function because it prevents accidental changes to a value while running it through a 
+  function. If a function tries to change a value that was passed as a constant, the program will not compile. This prevents the value from being changed.
 4. Why don't people do it often?
-  Answer: In one of the major programming languages that was used for 50 years, all arguments were passed as non-constants. Due to this, it has been common practice to pass a value as not constant. In modern programming languages like C++ however, it is now best to pass constant values and avoid changing too many values in a function.
+  Answer: In one of the major programming languages that was used for 50 years, all arguments were passed as non-constants. Due to this, it has been common practice to pass a 
+  value as not constant. In modern programming languages like C++ however, it is now best to pass constant values and avoid changing too many values in a function.
